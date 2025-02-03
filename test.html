@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Load MathJax for mathematical rendering -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        body {
+            background: white;
+            margin: 2rem;
+            font-family: Arial, sans-serif;
+        }
+
+        .academic-formula {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .equation-container {
+            margin: 1.5rem 0;
+            counter-increment: equation;
+        }
+
+        .equation-number::after {
+            content: "(" counter(equation) ")";
+            float: right;
+            color: #555;
+        }
+
+        .variable-table {
+            width: 100%;
+            margin: 1.5rem 0;
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+        }
+
+        .variable-table th {
+            background: #f5f5f5;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            font-weight: bold;
+        }
+
+        .variable-table td {
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+        }
+
+        .math-notation {
+            font-family: "Latin Modern Math", STIX, serif;
+            color: #333;
+        }
+
+        table caption {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <!-- Medal Score Calculation Formula -->
+    <section class="academic-formula">
+        <div class="equation-container">
+            <div class="equation-number"></div>
+            <div class="math-notation">
+                \[
+                M_{cst} = \sum_{m \in \mathcal{M}} \omega_m \cdot \mathbb{I}(\text{Medal}_{cst} = m)
+                \]
+            </div>
+        </div>
+
+        <!-- Regression Model Formula -->
+        <div class="equation-container">
+            <div class="equation-number"></div>
+            <div class="math-notation">
+                \[
+                \mathbb{E}[M_{cst}|X] = \alpha + \beta D_{ct} + \sum_{k \in \mathcal{C}} \gamma_k \mathbb{I}(c=k) + \epsilon_{cst}
+                \]
+            </div>
+        </div>
+
+        <!-- Variable Definitions Table -->
+        <table class="variable-table">
+            <caption>Table 1. Variable Definitions</caption>
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Domain</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>\(M_{cst}\)</td>
+                    <td>\(\mathbb{R}_{\geq 0}\)</td>
+                    <td>Weighted medal score for country \(c\) in sport \(s\) and year \(t\)</td>
+                </tr>
+                <tr>
+                    <td>\(\mathcal{M}\)</td>
+                    <td>{Gold, Silver, Bronze}</td>
+                    <td>Set of medal types</td>
+                </tr>
+                <tr>
+                    <td>\(\omega_m\)</td>
+                    <td>{3, 2, 1}</td>
+                    <td>Medal weight coefficients (Gold:3, Silver:2, Bronze:1)</td>
+                </tr>
+                <tr>
+                    <td>\(D_{ct}\)</td>
+                    <td>{0, 1}</td>
+                    <td>Coach engagement dummy (1=active in year \(t\))</td>
+                </tr>
+                <tr>
+                    <td>\(\mathcal{C}\)</td>
+                    <td>Set of countries</td>
+                    <td>Full sample of countries (excluding reference country)</td>
+                </tr>
+                <tr>
+                    <td>\(\epsilon_{cst}\)</td>
+                    <td>\(\sim \mathcal{N}(0,\sigma^2)\)</td>
+                    <td>Normally distributed error term</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>

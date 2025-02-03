@@ -1,0 +1,203 @@
+NOC,预测值,置信区间下限,置信区间上限
+United States,46,37,55
+Australia,44,37,51
+France,43,32,53
+China,42,29,55
+Japan,42,34,49
+Germany,42,35,49
+Canada,40,33,46
+Italy,38,30,46
+Spain,37,26,47
+Brazil,37,31,44
+Great Britain,32,22,41
+Netherlands,30,20,39
+Mexico,29,23,36
+Poland,27,20,34
+Czechia,26,19,34
+Argentina,25,17,33
+New Zealand,25,17,33
+Austria,25,19,31
+Egypt,25,16,35
+Hungary,24,18,30
+South Africa,24,17,31
+Colombia,24,19,29
+Ukraine,24,20,28
+Morocco,24,19,29
+South Korea,23,13,33
+Chile,23,17,29
+Denmark,22,17,28
+Kazakhstan,22,17,27
+Sweden,21,16,26
+Switzerland,21,11,30
+Belgium,21,12,30
+Norway,20,12,28
+Israel,20,14,26
+Portugal,19,12,26
+Turkey,19,14,24
+Chinese Taipei[4],17,12,22
+Thailand,17,12,22
+Uzbekistan,17,15,19
+Ireland,17,12,22
+Greece,17,8,26
+Romania,17,10,25
+Tunisia,16,10,21
+Algeria,16,13,19
+Croatia,16,12,19
+Cuba,16,8,24
+India,16,12,20
+Iran,15,9,21
+Ecuador,15,11,20
+Serbia,14,5,23
+Finland,14,8,19
+Estonia,14,9,19
+Azerbaijan,14,10,18
+Hong Kong,14,9,19
+Slovenia,14,13,16
+Lithuania,13,8,19
+Puerto Rico,13,5,21
+Latvia,13,7,18
+Slovakia,13,11,16
+Venezuela,12,5,19
+Georgia,12,10,14
+Bulgaria,12,8,16
+Dominican Republic,12,8,16
+Nigeria,11,8,14
+Singapore,11,7,15
+Vietnam,11,6,15
+Indonesia,10,5,16
+North Korea,10,6,13
+Peru,10,3,17
+Malaysia,10,7,14
+Mongolia,10,7,12
+Moldova,9,7,11
+Cyprus,9,5,13
+Armenia,8,6,11
+Philippines,8,4,13
+Senegal,8,5,11
+Uruguay,7,3,12
+Guatemala,7,2,12
+Fiji,7,3,11
+Montenegro,7,6,8
+Paraguay,7,5,9
+Angola,7,5,9
+Costa Rica,7,3,10
+Samoa,7,4,9
+Jordan,6,3,8
+Mauritius,6,2,9
+Kyrgyzstan,6,3,8
+Monaco,6,2,10
+Zimbabwe,6,1,10
+Luxembourg,6,1,11
+Haiti,6,3,8
+Palestine,6,4,8
+Panama,6,3,9
+Bosnia and Herzegovina,6,3,8
+San Marino,5,2,7
+United Arab Emirates,5,2,7
+Mali,5,3,7
+Tajikistan,5,2,9
+Syria,5,2,8
+Namibia,5,3,6
+Qatar,5,1,9
+Nepal,5,2,7
+Pakistan,5,2,8
+North Macedonia,5,2,7
+Niger,5,3,7
+Papua New Guinea,5,3,6
+Lebanon,5,1,10
+Guam,5,2,8
+Kenya,5,3,7
+Barbados,5,2,8
+Burkina Faso,5,5,5
+Kuwait,5,2,9
+Afghanistan,4,2,5
+Turkmenistan,4,3,5
+Guinea-Bissau,4,3,6
+Guinea,4,2,6
+Bangladesh,4,2,5
+Uganda,4,2,6
+Gabon,4,2,6
+Bahrain,4,3,6
+Bermuda,4,1,7
+Cape Verde,4,2,7
+Trinidad and Tobago,4,0,8
+El Salvador,4,1,8
+Saudi Arabia,4,1,8
+Togo,4,2,5
+Republic of the Congo,4,2,6
+Nicaragua,4,2,7
+Cameroon,4,0,8
+Maldives,4,3,5
+Madagascar,4,2,6
+Iraq,4,1,6
+Mozambique,4,3,6
+Ivory Coast,4,1,7
+Vanuatu,4,2,6
+Albania,4,2,6
+Zambia,4,2,6
+Iceland,4,2,6
+American Samoa,4,2,5
+Malta,4,2,7
+Sri Lanka,4,1,7
+Virgin Islands,4,2,5
+Benin,3,1,4
+Libya,3,1,5
+Central African Republic,3,1,5
+Seychelles,3,0,6
+Cayman Islands,3,2,4
+Bolivia,3,0,5
+Bhutan,3,1,4
+Burundi,3,2,4
+Cambodia,3,1,4
+Saint Lucia,3,2,4
+Federated States of Micronesia,3,2,4
+Rwanda,3,2,5
+Palau,3,2,4
+Yemen,3,2,5
+Andorra,3,1,5
+Antigua and Barbuda,3,1,4
+Jamaica,3,1,5
+Myanmar,3,0,5
+Aruba,3,1,4
+The Gambia,3,1,5
+Sudan,3,1,4
+Suriname,3,2,5
+Eritrea,3,2,4
+Tonga,3,1,5
+Democratic Republic of the Congo,3,1,5
+Belize,2,0,3
+São Tomé and Príncipe,2,0,3
+Tanzania,2,1,3
+Botswana,2,1,4
+Timor-Leste,2,0,3
+Bahamas,2,1,4
+Liechtenstein,2,0,5
+British Virgin Islands,2,1,3
+Eswatini,2,0,4
+Malawi,2,0,3
+Lesotho,2,0,3
+Marshall Islands,2,1,3
+Laos,2,1,4
+Kiribati,2,2,3
+Honduras,2,0,5
+Guyana,2,1,4
+Grenada,2,1,3
+Brunei,2,1,3
+Ethiopia,2,1,3
+Oman,2,1,3
+Djibouti,2,1,4
+Cook Islands,2,0,3
+Comoros,2,1,3
+Chad,2,1,3
+Sierra Leone,2,0,4
+Solomon Islands,2,0,4
+Saint Vincent and the Grenadines,2,1,3
+Equatorial Guinea,1,0,2
+Dominica,1,0,2
+Tuvalu,1,0,2
+Ghana,1,0,2
+Nauru,1,0,2
+Saint Kitts and Nevis,1,0,2
+Mauritania,1,0,2
+Liberia,1,1,2
+Somalia,1,0,2
